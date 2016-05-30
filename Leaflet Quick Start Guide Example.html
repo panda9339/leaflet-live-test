@@ -14,7 +14,7 @@
 	<script src="./Leaflet Quick Start Guide Example_files/leaflet.js"></script>
 	<script>
 
-		var mymap = L.map('mapid').setView([22.33293, 114.18297], 13);
+		var mymap = L.map('mapid').setView([45.74495, 126.62481], 13);
 
 		L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpandmbXliNDBjZWd2M2x6bDk3c2ZtOTkifQ._QA7i5Mpkd_m30IGElHziw', {
 			maxZoom: 18,
@@ -25,12 +25,8 @@
 		}).addTo(mymap);
 
 
-		L.marker([22.33293, 114.18297]).addTo(mymap)
-			.bindPopup("<b>Hello DNN!</b><br />I am a popup.").openPopup();
-
-		L.marker([22.33293, 114.19297]).addTo(mymap)
-			.bindPopup("<b>Hello DNN!</b><br />I am a popup.").openPopup();
-
+		L.marker([45.74495, 126.62481]).addTo(mymap)
+			.bindPopup("<b>Hello HARBIN!</b><br />I am a popup.").openPopup();
 
 		var popup = L.popup();
 
